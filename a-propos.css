@@ -1,0 +1,34 @@
+th {
+    text-align: center !important;
+    background-color: #662020;
+    color: #fff;
+    padding: 0;
+}
+.table1 {
+    color: #fafafa;
+    margin-top: 0px;
+    font-size: 50px;
+    border: 0px;
+    width: 100%;
+}
+.header , .table1{
+    background-color: #333;
+    height: 150px;
+}
+
+.btn {
+    background-color: #662020;
+    height: 90px !important;
+    width: 100px !important;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.img {
+    height: 90px !important;
+    width: 90px !important
+}
+
+.image{
+    width: 90px;
+    height: 155px;
+}

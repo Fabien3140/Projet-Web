@@ -1,0 +1,214 @@
+@charset "UTF-8";
+
+.header {
+  background-color: #333;
+  height: 150px;
+}
+
+.table1 {
+  color: #fafafa;
+  margin-top: 0px;
+  font-size: 50px;
+  text-align: center;
+  border: 0px;
+  width: 100%;
+}
+
+.btn {
+  background-color: #662020;
+  height: 90px !important;
+  width: 100px !important;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.img {
+  height: 90px !important;
+  width: 90px !important
+}
+
+.image{
+  width: 90px;
+  height: 155px;
+}
+
+@media screen and (max-width: 681px) {
+  .nav{
+    margin-top:150px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    height: 150px;
+  }
+  .header .container-fluid {
+    margin-left: 4rem !important;
+  }
+}
+.header .container-fluid {
+  margin-left: 16rem;
+}
+.header a {
+  color: #fafafa !important;
+}
+
+.button {
+  width: 219.1px;
+  border-color:darkred;
+  background-color: whitesmoke;
+  text-decoration-color: black;
+}
+
+#container2, #container1 {
+  height: 300px;
+  color: #fafafa !important;
+}
+#container2 li, #container1 li {
+  margin-top: 32px;
+}
+
+h1, #container2, #container1, #container3, h3, article, #coordonnées, .table {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, table.container, #projets, h3 {
+  display: table;
+  margin: auto;
+}
+
+#container3 .col-sm-2, #projets, #formations, #compétences, #expériences, #voyage, #langues, .container-fluid li {
+  border: 1px solid ;
+}
+
+h1, #projets, #formations, #compétences, #expériences, #voyage, #langues , .container-fluid li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#container2 {
+  background-color: #662020;
+  border-radius: 5px;
+}
+
+#container1 {
+  background-color: #202066;
+  border-radius: 5px;
+}
+
+#container3 .col-sm-2 {
+  border-radius: 5px;
+}
+
+#Coloc {
+  width: 195px;
+}
+
+#left {
+  background-color: #ffe4c4;
+  background-image: url('https://cdn.vox-cdn.com/thumbor/oQ4iz3pyOZkivTL8H1iBj0efmR0=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/56805221/acastro_170629_1777_0008.0.jpg');
+  width: 300px;
+  height: 250px;
+  margin-right: 15px;
+}
+
+#center {
+  background-color: #ffebcd;
+  background-image: url('https://www.objetconnecte.net/wp-content/uploads/2013/09/plante-connect%C3%A9e-4.jpg');
+  width: 590px;
+  height: 250px;
+  margin-right: 15px;
+}
+
+#right {
+  background-color: #f5f5dc;
+  background-image:url(https://dxmtechnologie.com/wp-content/uploads/2015/09/network-infrastructure1.jpg);
+  width: 250px;
+  height: 250px;
+}
+
+h4 {
+  color: white;
+}
+
+#projets, #formations, #compétences, #expériences, #voyage, #langues , .container-fluid li {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+table, td {
+    border: 1px solid #333;
+}
+
+thead, tfoot, th {
+    background-color: #662020;
+    color: #fff;
+}
+
+.table-comp {
+ text-align: center;
+}
+
+th{
+  text-align: center !important;
+}
+
+table img {
+  width: 6rem;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.progresse-bar{
+  margin-bottom: 0;
+}
+
+.bouton1 {
+  display: block;
+  margin : auto;
+  font-style: oblique;
+  background-color:  #662020;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+
+#coordonnées {
+  margin-top: 30px;
+  background-color: black;
+  height: 100%;
+  color: white;
+  padding-bottom: 40px;
+}
+#coordonnées img {
+  height: 120px;
+  float: right;
+  padding-top: 0px;
+  padding-right: 0px;
+}
+
+#voyages .container-fluid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  list-style-type: none;
+}
+@media screen and (max-width: 1030px) {
+  #voyages .container-fluid {
+    flex-flow: column wrap !important;
+  }
+}
+#voyages .container-fluid li {
+  color: white;
+  margin-top: 20px;
+  padding: 6px;
+  border-radius: 3px;
+  background-color: #202066;
+}
+
+#contact {
+  margin-top: 30px;
+}
+.bout{
+  background-color: whitesmoke !important;
+  height: 30px !important;
+}
