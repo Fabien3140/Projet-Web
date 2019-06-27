@@ -1,5 +1,5 @@
-CREATE DATABASE Portfolio;
-USE Portfolio;
+CREATE DATABASE database;
+USE database;
 
 CREATE TABLE Eleve (
   nom varchar(50);
