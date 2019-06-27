@@ -23,6 +23,22 @@ th {
     margin-bottom: 20px;
     margin-right: 20px;
 }
+@media screen and (max-width: 681px) {
+    .nav{
+      margin-top:150px;
+    }
+  }
+  
+
+@media screen and (min-width: 769px) {
+    .header {
+      height: 150px;
+    }
+    .header .container-fluid {
+      margin-left: 4rem !important;
+    }
+  }
+  
 .img {
     height: 90px !important;
     width: 90px !important
