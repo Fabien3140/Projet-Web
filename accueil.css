@@ -32,6 +32,22 @@ th {
     border-radius: 80px;
     margin-top: 10px;
 }
+@media screen and (max-width: 681px) {
+    .nav{
+      margin-top:150px;
+    }
+  }
+  
+
+@media screen and (min-width: 769px) {
+    .header {
+      height: 150px;
+    }
+    .header .container-fluid {
+      margin-left: 4rem !important;
+    }
+  }
+  
 .logo {
     width: 512px !important;
     height: 500px !important;
